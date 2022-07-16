@@ -1,0 +1,104 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    /* flex-direction: column; */
+ align-items: center;
+ justify-content:center ;
+ width: 100vw;
+ height: 100vh;
+    background-color: cornflowerblue;
+}
+.score{
+  border-radius: 10px;
+    top: 5%;
+    position: absolute;
+    padding-right: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 306px) {
+    .score{
+       width: 50vw;
+    }
+  }
+@media screen and (max-width: 208px) {
+    .score{
+       width: 90vw;
+    }
+  }
+
+
+#score1{
+    padding-bottom: 40px;
+}
+.ht{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+/* @media screen and (max-width: 306px) {
+    .ht{
+       width: 30vw;
+    }
+  }
+
+
+ @media screen and (max-width: 1188px) {
+    .ht{
+        position: absolute;
+        left: 37%;
+    }
+  }
+@media screen and (  max-width: 936px) {
+    .ht{
+        position: absolute;
+        left: 35%;
+    }
+  }
+@media screen and (  max-width: 812px) {
+    .ht{
+        position: absolute;
+        left: 33%;
+    }
+  }
+@media screen and (  max-width: 748px) {
+    .ht{
+        position: absolute;
+        left: 31%;
+    }
+  }
+@media screen and (  max-width: 616px) {
+    .ht{
+        position: absolute;
+        left: 29%;
+    }
+  } */
+  
+  .ht .same {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 238, 0);
+    text-align: center;
+    padding: 20px;
+font-size: 20px;
+width: 100px;
+border-radius: 10px;
+margin-right: 5px;
+}  
+@media screen and (  max-width: 480px) {
+    .ht{
+       display: none;
+    }
+  }
+.ht .same:active{
+    
+    background-color: rgb(34, 206, 111);
+}
